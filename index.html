@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cyber Security Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Nawigacja -->
+    <nav>
+        <div class="logo"><span>></span> CyberStudent</div>
+        <ul>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#skills">Umiejętności</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero-content">
+            <h1 id="typewriter">Cześć, jestem Jan Kowalski</h1>
+            <p>Student Cyberbezpieczeństwa | Pasjonat Pentestingu | CTF Player</p>
+            <div class="status-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="status-text">Status: Aktywne poszukiwanie stażu...</span>
+            </div>
+            <a href="#projects" class="btn">Zobacz moje projekty</a>
+        </div>
+    </header>
+
+    <!-- O mnie -->
+    <section id="about" class="container">
+        <h2>[01] O mnie</h2>
+        <p>Jestem studentem III roku Cyberbezpieczeństwa na Politechnice. Interesuję się bezpieczeństwem aplikacji webowych oraz analizą malware. Moim celem jest pomoc firmom w zabezpieczaniu ich infrastruktury przed atakami.</p>
+    </section>
+
+    <!-- Umiejętności -->
+    <section id="skills" class="bg-alt">
+        <div class="container">
+            <h2>[02] Umiejętności techniczne</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Pentesting</h3>
+                    <p>Burp Suite, Metasploit, Nmap</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Defensywa</h3>
+                    <p>SIEM (Splunk), Wireshark, IDS/IPS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Programowanie</h3>
+                    <p>Python, Bash, C++, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Systemy</h3>
+                    <p>Kali Linux, Debian, Windows Server</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekty -->
+    <section id="projects" class="container">
+        <h2>[03] Projekty i Labolatoria</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Vulnerability Scanner</h3>
+                <p>Autorski skrypt w Pythonie wyszukujący luki w konfiguracji serwerów Apache.</p>
+                <a href="#" class="link">GitHub <i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-item">
+                <h3>Write-ups: HTB & TryHackMe</h3>
+                <p>Dokumentacja rozwiązanych maszyn i wyzwań typu CTF.</p>
+                <a href="#" class="link">Zobacz bloga</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="container">
+        <h2>[04] Nawiąż kontakt</h2>
+        <div class="contact-links">
+            <a href="mailto:email@przyklad.pl"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://linkedin.com/in/twojprofil"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/twojuser"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CyberStudent. Wszystkie połączenia są szyfrowane.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
