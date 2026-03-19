@@ -148,7 +148,7 @@ header {
 /* Doświadczenie & Kontakt */
 .timeline-item {
     background: var(--card-bg);
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 1rem;
     border-radius: 8px;
     border-left: 2px solid var(--secondary-color);
