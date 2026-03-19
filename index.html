@@ -3,102 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Cyber Security Student</title>
+    <title>Cyber Portfolio | O Mnie</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Nawigacja -->
-    <nav>
-        <div class="logo"><span>></span> CyberStudent</div>
-        <ul>
-            <li><a href="#about">O mnie</a></li>
-            <li><a href="#skills">Umiejętności</a></li>
-            <li><a href="#projects">Projekty</a></li>
-            <li><a href="#contact">Kontakt</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
     <header>
-        <div class="hero-content">
-            <h1 id="typewriter">Cześć, jestem Jan Kowalski</h1>
-            <p>Student Cyberbezpieczeństwa | Pasjonat Pentestingu | CTF Player</p>
-            <div class="status-bar">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
-                <span class="status-text">Status: Aktywne poszukiwanie stażu...</span>
-            </div>
-            <a href="#projects" class="btn">Zobacz moje projekty</a>
-        </div>
+        <nav class="navbar">
+            <div class="logo">SEC<span>_PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">O mnie</a></li>
+                <li><a href="labs.html">Moje laby</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- O mnie -->
-    <section id="about" class="container">
-        <h2>[01] O mnie</h2>
-        <p>Jestem studentem III roku Cyberbezpieczeństwa na Politechnice. Interesuję się bezpieczeństwem aplikacji webowych oraz analizą malware. Moim celem jest pomoc firmom w zabezpieczaniu ich infrastruktury przed atakami.</p>
-    </section>
+    <main class="container">
+        <!-- Sekcja O Mnie -->
+        <section id="about" class="hero-section">
+            <h1 class="glitch" data-text="Kamil Nowak">Jan Kowalski</h1>
+            <p class="subtitle">Cybersecurity Specialist | Penetration Tester | SOC Analyst</p>
+            <div class="bio-card">
+                <h2><i class="fas fa-user-shield"></i> O mnie</h2>
+                <p>Cześć! Fascynuję się bezpieczeństwem ofensywnym oraz analizą malware. Moim celem jest budowanie bezpieczniejszej infrastruktury cyfrowej poprzez identyfikację luk, zanim zrobią to inni.</p>
+            </div>
+        </section>
 
-    <!-- Umiejętności -->
-    <section id="skills" class="bg-alt">
-        <div class="container">
-            <h2>[02] Umiejętności techniczne</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fas fa-terminal"></i>
-                    <h3>Pentesting</h3>
-                    <p>Burp Suite, Metasploit, Nmap</p>
+        <!-- Doświadczenie -->
+        <section id="experience">
+            <h2 class="section-title">Doświadczenie</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Junior SOC Analyst</h3>
+                    <p class="date">2022 - Obecnie | Firma IT Sec</p>
+                    <p>Monitorowanie incydentów, analiza logów SIEM i reagowanie na zagrożenia.</p>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Defensywa</h3>
-                    <p>SIEM (Splunk), Wireshark, IDS/IPS</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Programowanie</h3>
-                    <p>Python, Bash, C++, SQL</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-linux"></i>
-                    <h3>Systemy</h3>
-                    <p>Kali Linux, Debian, Windows Server</p>
+                <div class="timeline-item">
+                    <h3>IT Support Specialist</h3>
+                    <p class="date">2020 - 2022 | Tech Solutions</p>
+                    <p>Zarządzanie uprawnieniami użytkowników i zabezpieczanie stacji roboczych.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projekty -->
-    <section id="projects" class="container">
-        <h2>[03] Projekty i Labolatoria</h2>
-        <div class="projects-grid">
-            <div class="project-item">
-                <h3>Vulnerability Scanner</h3>
-                <p>Autorski skrypt w Pythonie wyszukujący luki w konfiguracji serwerów Apache.</p>
-                <a href="#" class="link">GitHub <i class="fab fa-github"></i></a>
+        <!-- Kontakt -->
+        <section id="contact">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="contact-grid">
+                <a href="mailto:twoj-email@example.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://linkedin.com/in/twoj-profil" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/twoj-user" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
             </div>
-            <div class="project-item">
-                <h3>Write-ups: HTB & TryHackMe</h3>
-                <p>Dokumentacja rozwiązanych maszyn i wyzwań typu CTF.</p>
-                <a href="#" class="link">Zobacz bloga</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Kontakt -->
-    <section id="contact" class="container">
-        <h2>[04] Nawiąż kontakt</h2>
-        <div class="contact-links">
-            <a href="mailto:email@przyklad.pl"><i class="fas fa-envelope"></i> Email</a>
-            <a href="https://linkedin.com/in/twojprofil"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/twojuser"><i class="fab fa-github"></i> GitHub</a>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 CyberStudent. Wszystkie połączenia są szyfrowane.</p>
+        <p>&copy; 2024 Cybersecurity Portfolio | <span id="clock"></span></p>
     </footer>
 
     <script src="script.js"></script>
