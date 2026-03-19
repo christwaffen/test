@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Portfolio | Moje Laby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">SEC<span>_PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">O mnie</a></li>
+                <li><a href="labs.html" class="active">Moje laby</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="labs">
+            <h1 class="section-title">Laboratoria i Projekty</h1>
+            <p class="description">Poniżej znajdują się moje autorskie skrypty, narzędzia i dokumentacje z labów HTB/TryHackMe.</p>
+
+            <div class="labs-grid">
+                <!-- Lab 1 -->
+                <a href="https://github.com/twoj-user/lab-nmap" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-search"></i></div>
+                    <h3>Network Scanner</h3>
+                    <p>Skrypt w Pythonie automatyzujący skanowanie podatności przy użyciu Nmap.</p>
+                    <span class="tech-tag">Python</span>
+                </a>
+
+                <!-- Lab 2 -->
+                <a href="https://github.com/twoj-user/malware-analysis" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Malware Lab</h3>
+                    <p>Dokumentacja z analizy statycznej i dynamicznej wybranego trojana.</p>
+                    <span class="tech-tag">Reverse Engineering</span>
+                </a>
+
+                <!-- Lab 3 -->
+                <a href="https://github.com/twoj-user/ad-hardening" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-server"></i></div>
+                    <h3>Active Directory Hardening</h3>
+                    <p>Konfiguracja GPO i zabezpieczanie domeny Windows Server.</p>
+                    <span class="tech-tag">Security</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cybersecurity Portfolio | <span id="clock"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
