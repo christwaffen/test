@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Portfolio | Laby</title>
+    <link rel="stylesheet" href="stajl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Maciej Oleksy<span> PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">O mnie</a></li>
+                <li><a href="labs.html" class="active">Moje laby</a></li>
+            </ul>
+        </nav>
+    </header>
+<!---
+    <main class="container">
+        <section id="labs">
+            <h1 class="section-title">Laboratoria i Projekty</h1>
+             <div class="bio-card">
+                <p>Tutaj znajdziesz moje laboratoria – projekty, które realizowałem, aby rozwijać swoje umiejętności w cyberbezpieczeństwie. Każdy lab pokazuje zarówno ofensywne, jak i defensywne podejście do bezpieczeństwa.</p>
+            </div>
+            <br>
+            <div class="labs-grid">
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>OWASP Top 10 2025</h3>
+                    <p>Testowanie i omówienie najpopularniejszych podatności z roku 2025</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Malware Analysis</h3>
+                    <p>Dokumentacja z analizy trojana Emotet.</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Network Scanner</h3>
+                    <p>Automatyzacja Nmapa w Pythonie.</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Malware Analysis</h3>
+                    <p>Dokumentacja z analizy trojana Emotet.</p>
+                </a>
+
+                 <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Network Scanner</h3>
+                    <p>Automatyzacja Nmapa w Pythonie.</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Malware Analysis</h3>
+                    <p>Dokumentacja z analizy trojana Emotet.</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Network Scanner</h3>
+                    <p>Automatyzacja Nmapa w Pythonie.</p>
+                </a>
+
+                <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                    <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Malware Analysis</h3>
+                    <p>Dokumentacja z analizy trojana Emotet.</p>
+                </a>
+
+            </div>
+        </section>
+    </main>
+-->
+
+<main class="container">
+    <!-- Nagłówek strony -->
+    <header class="labs-page-header">
+        <h1 class="section-title-centered">Portfolio Techniczne</h1>
+        <p class="page-description">
+            Dokumentacja moich prac badawczych oraz autorskie narzędzia wspierające procesy cybersecurity.
+        </p>
+    </header>
+
+    <!-- SEKCJA: PROJEKTY (NARZĘDZIA) -->
+    <section class="labs-section">
+        <h2 class="sub-section-title"><i class="fas fa-code"></i> Projekty & Narzędzia</h2>
+        <div class="labs-grid">
+            <!-- Projekt 1 -->
+            <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                <div class="lab-icon"><i class="fas fa-terminal"></i></div>
+                <div class="lab-content">
+                    <h3>NetScanner Pro</h3>
+                    <p>Skrypt w Pythonie automatyzujący skanowanie portów i detekcję serwisów z wykorzystaniem biblioteki python-nmap.</p>
+                </div>
+            </a>
+            <!-- Projekt 2 -->
+            <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                <div class="lab-icon"><i class="fas fa-folder-tree"></i></div>
+                <div class="lab-content">
+                    <h3>LogAnalyzer</h3>
+                    <p>Narzędzie do parsowania logów serwera Apache w poszukiwaniu prób ataków typu SQL Injection i Path Traversal.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- SEKCJA: LABORATORIA (ANALIZY) -->
+    <section class="labs-section">
+        <h2 class="sub-section-title"><i class="fas fa-flask"></i> Laboratoria & Analizy</h2>
+        <div class="labs-grid">
+            <!-- Lab 1 -->
+            <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                <div class="lab-icon"><i class="fas fa-bug"></i></div>
+                <div class="lab-content">
+                    <h3>Malware Analysis: Emotet</h3>
+                    <p>Analiza statyczna i dynamiczna próbki trojana bankingowego w izolowanym środowisku Any.Run.</p>
+                </div>
+            </a>
+            <!-- Lab 2 -->
+            <a href="https://github.com/christwaffen" target="_blank" class="lab-card">
+                <div class="lab-icon"><i class="fas fa-shield-halved"></i></div>
+                <div class="lab-content">
+                    <h3>Active Directory Hardening</h3>
+                    <p>Dokumentacja z procesu zabezpieczania kontrolera domeny zgodnie ze standardami CIS Benchmark.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
+
+    <footer><p>&copy; 2025 | <span id="clock"></span></p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

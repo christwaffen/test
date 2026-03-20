@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Portfolio | Main</title>
+    <link rel="stylesheet" href="stajl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Maciej Oleksy<span> PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">O mnie</a></li>
+                <li><a href="labs.html">Moje laby</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Sekcja Hero / O mnie -->
+        <section id="about" class="hero-section">
+            <h1 class="glitch">Maciej Oleksy</h1>
+            <p class="subtitle">Cybersecurity Specialist | Penetration Tester</p>
+        </br>
+            <div class="bio-card">
+                <p>Cześć! Jestem początkującym specjalistą ds. cyberbezpieczeństwa, rozwijający swoje umiejętności w praktycznych laboratoriach. Skupiam się na testowaniu aplikacji webowych, analizie podatności oraz zrozumieniu mechanizmów systemów i sieci.</p>
+            </div>
+        </section>
+
+        <!-- Sekcja Cyber Events -->
+        <section id="cyber-events">
+            <h2 class="section-title">Cybersecurity Events</h2>
+            <div class="events-grid">
+                <div class="event-card highlight">
+                    <h3>Ogólnopolska Studencka Konferencja Naukowa</h3>
+                    <p class="event-info">17.05.2025</p>
+                    <p class="event-desc">Prelegent Ogólnopolskiej Konferencji Naukowej pt.: Jednostka-państwo-społeczeństwo. Temat referatu: Cyberbezpieczeństwo Internetu Rzeczy. Uczelnia Jana Wyżykowskiego w Polkowicach.</p>
+                </div>
+               
+            </div>
+        </section>
+
+         <!-- Sekcja Technical Arsenal (Skille) -->
+        <section id="skills-arsenal">
+            <h2 class="section-title">Cybersecurity Experience</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-user-secret"></i><h5>Systemy operacyjne – administracja i praca w środowisku testowym</h5></div>
+                    <div class="skill-tags">
+                        <span>Linux</span><span>Windows (Active Directory)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-user-secret"></i><h5>Sieci komputerowe – analiza i zrozumienie komunikacji sieciowej</h5></div>
+                    <div class="skill-tags">
+                        <span>TCP/IP</span><span>HTTP/HTTPS</span><span>Nmap</span><span>Wireshark</span>
+                    </div>
+
+                </div>
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-user-secret"></i><h5>Rekonesans, skanowanie i OSINT – identyfikacja usług, osób i powierzchni ataku</h5></div>
+                    <div class="skill-tags">
+                        <span>Maltego</span><span>OSINT tools</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-shield-alt"></i><h5>Testowanie aplikacji webowych – analiza i manipulacja żądań HTTP</h5></div>
+                    <div class="skill-tags">
+                       <span>Burp Suite</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-code"></i><h5>Podatności i bezpieczeństwo aplikacji – identyfikacja i wykorzystanie luk</h5></div>
+                    <div class="skill-tags">
+                        <span>OWASP Top 10</span><span>Metasploit</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-code"></i><h5>Tworzenie własnych podatnych aplikacji i narzędzi do celów edukacyjnych</h5></div>
+                    <div class="skill-tags">
+                        <span>Python</span><span>Bash</span><span>PowerShell</span><span>JavaScript</span>
+                    </div>
+                </div>
+
+                   <div class="skill-category">
+                    <div class="category-header"><i class="fas fa-code"></i><h5>Hardening systemów – zabezpieczanie i minimalizacja powierzchni ataku</h5></div>
+                    <div class="skill-tags">
+                        <span>Podstawowy hardening Linux i Windows</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Kontakt -->
+        <section id="contact">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="contact-grid">
+                <a href="mailto:twoj@email.com" class="contact-card"><i class="fas fa-envelope"></i><span> Email</span></a>
+                <a href="#" class="contact-card"><i class="fab fa-linkedin"></i><span> LinkedIn</span></a>
+                <a href="https://github.com/christwaffen" class="contact-card"><i class="fab fa-github"></i><span> GitHub</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cybersecurity Portfolio | <span id="clock"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
